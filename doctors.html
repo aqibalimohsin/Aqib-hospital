@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Doctors | AQIB HOSPITAL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="container">
+      <div>📍 Main Shahrah-e-Faisal, Karachi | 🕒 Open 24/7</div>
+      <div><span class="emergency-badge">24/7 Emergency: +92 21 111-274-247</span></div>
+    </div>
+  </div>
+
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo">🏥 AQIB <span>HOSPITAL</span></a>
+      <div class="menu-toggle" id="menuToggle">☰</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="departments.html">Departments</a></li>
+        <li><a href="doctors.html" class="active">Doctors</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="appointment.html" class="btn">Book Appointment</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="page-banner">
+    <div class="container">
+      <h1>Meet Our Specialists</h1>
+      <p>Search our panel of experienced consultants and surgeons</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar">
+        <input type="text" id="doctorSearch" placeholder="Search doctor by name...">
+        <select id="deptFilter">
+          <option value="all">All Departments</option>
+          <option value="Cardiology">Cardiology</option>
+          <option value="Neurology">Neurology</option>
+          <option value="Orthopedics">Orthopedics</option>
+          <option value="Pediatrics">Pediatrics</option>
+        </select>
+      </div>
+
+      <div class="grid-3">
+        <div class="card doctor-card" data-dept="Cardiology">
+          <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=600&q=80" alt="Dr. Kamran Siddiqui">
+          <span class="specialty-tag">Cardiology</span>
+          <h3>Dr. Kamran Siddiqui</h3>
+          <p>MBBS, FCPS (Cardiology) • 16 Years Exp.</p>
+          <p style="font-size:0.9rem; color:var(--gray); margin:8px 0;">Mon - Fri | 10:00 AM - 02:00 PM</p>
+          <a href="appointment.html?doctor=Dr.%20Kamran%20Siddiqui" class="btn" style="width:100%; text-align:center;">Book Appointment</a>
+        </div>
+
+        <div class="card doctor-card" data-dept="Neurology">
+          <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=600&q=80" alt="Dr. Ayesha Tariq">
+          <span class="specialty-tag">Neurology</span>
+          <h3>Dr. Ayesha Tariq</h3>
+          <p>MBBS, MD, FRCP (Neurology) • 14 Years Exp.</p>
+          <p style="font-size:0.9rem; color:var(--gray); margin:8px 0;">Tue - Sat | 03:00 PM - 07:00 PM</p>
+          <a href="appointment.html?doctor=Dr.%20Ayesha%20Tariq" class="btn" style="width:100%; text-align:center;">Book Appointment</a>
+        </div>
+
+        <div class="card doctor-card" data-dept="Orthopedics">
+          <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=80" alt="Dr. Bilal Mahmood">
+          <span class="specialty-tag">Orthopedics</span>
+          <h3>Dr. Bilal Mahmood</h3>
+          <p>MBBS, MS (Orthopedic Surgery) • 12 Years Exp.</p>
+          <p style="font-size:0.9rem; color:var(--gray); margin:8px 0;">Mon, Wed, Fri | 05:00 PM - 09:00 PM</p>
+          <a href="appointment.html?doctor=Dr.%20Bilal%20Mahmood" class="btn" style="width:100%; text-align:center;">Book Appointment</a>
+        </div>
+
+        <div class="card doctor-card" data-dept="Pediatrics">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80" alt="Dr. Sana Farooq">
+          <span class="specialty-tag">Pediatrics</span>
+          <h3>Dr. Sana Farooq</h3>
+          <p>MBBS, DCH, FCPS (Pediatrics) • 10 Years Exp.</p>
+          <p style="font-size:0.9rem; color:var(--gray); margin:8px 0;">Daily | 11:00 AM - 03:00 PM</p>
+          <a href="appointment.html?doctor=Dr.%20Sana%20Farooq" class="btn" style="width:100%; text-align:center;">Book Appointment</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4>AQIB HOSPITAL</h4>
+        <p>Committed to clinical excellence, ethical medical practice, and accessible healthcare for every family.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About Hospital</a></li>
+          <li><a href="departments.html">Departments</a></li>
+          <li><a href="doctors.html">Our Doctors</a></li>
+          <li><a href="appointment.html">Book Appointment</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Info</h4>
+        <ul>
+          <li>📍 Main Shahrah-e-Faisal, Karachi</li>
+          <li>📞 +92 21 111-274-247</li>
+          <li>✉️ info@aqibhospital.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 AQIB HOSPITAL. All Rights Reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
